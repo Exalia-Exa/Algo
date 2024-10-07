@@ -162,7 +162,10 @@ public class TwoSat {
 
     public static void main(String[] args) {
         TwoSat twoSat = new TwoSat(0);
-        twoSat.openGraph("formule-2-sat.txt");
+        twoSat.openGraph("formule-sat.txt");
+        // twoSat.openGraph("formule-unsat.txt");
+        
+
         // twoSat.addArc(0, 1);
         // twoSat.addArc(1, 2);
         // twoSat.addArc(2, 0);
