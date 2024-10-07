@@ -34,6 +34,10 @@ public class Graph<Label> {
     public void addArc(int source, int dest, Label label) {
         incidency.get(source).addLast(new Edge(source,dest,label));
     }
+    
+
+    
+
 
     public String toString() {
         String result = new String("");
